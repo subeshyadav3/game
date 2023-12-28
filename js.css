@@ -1,0 +1,56 @@
+body{
+	background-color: skyblue;
+}
+
+#choice{
+
+	width: 180px;
+	height: 150px;
+	border: 2px solid white;
+	border-width: 5px;
+	border-radius: 10px;
+	margin:5px;
+	box-shadow: 10px 10px 5px rgb(39, 82,108, 1.0);
+}
+#choice:hover{
+	border: 5px solid red;
+	zoom: 1.1;
+	transition: 1s;
+
+}
+
+
+.game{
+	align-items: center;
+	display: block;
+
+	margin-left: 35%;
+	margin-top: 5%;
+}
+.score{
+	margin-left: 35%;
+	margin-top: 5%;
+}
+.score ul{
+	display: flex;
+	flex: left;
+	margin: 20px;
+	font-size: 2rem;
+	text-decoration: bold;
+	list-style: none;
+}
+.score ul li{
+	margin:50px;
+
+}
+.result{
+	margin-left: 35%;
+	margin-top: 5%;
+	}
+#result{
+	width: 500px;
+	height: 50px;
+	margin-left: 50px;
+	font-size: 1.5rem;
+
+}
