@@ -2,6 +2,10 @@ body{
 	background-color: skyblue;
 }
 
+.whole{
+	display: grid;
+	grid-area: 180px;
+}
 #choice{
 
 	width: 180px;
@@ -24,12 +28,13 @@ body{
 	align-items: center;
 	display: block;
 
-	margin-left: 35%;
-	margin-top: 5%;
+/*	margin-left: 35%;*/
+	margin-top: 20px;
+	margin: auto;
+
 }
 .score{
-	margin-left: 35%;
-	margin-top: 5%;
+	margin: auto;
 }
 .score ul{
 	display: flex;
@@ -38,14 +43,15 @@ body{
 	font-size: 2rem;
 	text-decoration: bold;
 	list-style: none;
-}
-.score ul li{
-	margin:50px;
 
 }
+.score ul li{
+	margin: 35px;
+	margin-bottom: 20px;
+}
 .result{
-	margin-left: 35%;
-	margin-top: 5%;
+	margin-top: 15px;
+	margin: auto;
 	}
 #result{
 	width: 500px;
@@ -53,4 +59,9 @@ body{
 	margin-left: 50px;
 	font-size: 1.5rem;
 
+}
+#move{
+	margin-bottom: 20px;
+	font-size: 2rem;
+	text-align: center;
 }
